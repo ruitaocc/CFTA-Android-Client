@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_background"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:id="@+id/account_enter_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="141dp"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/account_word" />
+
+        <EditText
+            android:id="@+id/account_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:maxLength="16"
+            android:maxLines="1"
+            android:textColor="#ff333333"
+            android:textSize="18.0sp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/password_enter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/account_enter_layout"
+        android:layout_below="@+id/account_enter_layout"
+        android:gravity="center_vertical"
+        android:paddingTop="20dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/password_word" />
+
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:maxLines="1"
+            android:textColor="#ff333333"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ip_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/account_enter_layout"
+        android:src="@drawable/setting" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/password_enter_layout"
+        android:layout_below="@+id/password_enter_layout"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_btn_selector"
+        android:text="@string/login"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/offline_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login_btn"
+        android:layout_below="@+id/login_btn"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_btn_selector"
+        android:text="@string/offline_mode"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_keepword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/login_btn"
+        android:layout_alignBottom="@+id/login_btn"
+        android:text="@string/keeppassword"
+        android:textColor="#FFFFFFFF" />
+    
+    <CheckBox
+        android:id="@+id/checkBox_autosign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/offline_btn"
+        android:layout_alignBottom="@+id/offline_btn"
+        android:layout_alignLeft="@+id/checkBox_keepword"
+        android:text="@string/autosign"
+        android:textColor="#FFFFFFFF" />
+
+</RelativeLayout>

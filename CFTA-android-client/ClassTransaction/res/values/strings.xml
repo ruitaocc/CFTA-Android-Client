@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ClassTransactionActivity!</string>
+    <string name="app_name">ClassTransaction</string>
+    <string name="home_name">Home</string>
+    
+    <string name="account">帐号</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    
+    <string name="defaultIP">110.64.89.83</string>
+    <string name="enterIP">请输入IP地址,默认为110.64.89.83</string>
+    <string name="defaultPORT">12000</string>
+    
+    <string name="offline_mode">离线模式</string>
+    <string name="keeppassword">保存密码</string>
+    <string name="autosign">自动登录</string>
+    <string name="loginfail">登录失败</string>
+    <string name="login_success">登录成功</string>
+    <string name="account_error">账号或密码错误</string>
+    <string name="network_anomaly">网络异常</string>
+    <string name="view_members">查看成员</string>
+    <string name="personalInfo">个人信息</string>
+     <string name="update_schedule">更新课表</string>
+    <string name="class_four">软件工程10级4班</string>
+	
+	<string name="mon">周一</string>
+	<string name="tue">周二</string>
+	<string name="wed">周三</string>
+	<string name="thu">周四</string>
+	<string name="fri">周五</string>
+	<string name="sat">周六</string>
+	<string name="sun">周日</string>
+	
+	<string name="section1">第1节</string>
+	<string name="section2">第2节</string>
+	<string name="section3">第3节</string>
+	<string name="section4">第4节</string>
+	<string name="section5">第5节</string>
+	<string name="section6">第6节</string>
+	<string name="section7">第7节</string>
+	<string name="section8">第8节</string>
+	<string name="section9">第9节</string>
+	<string name="section10">第10节</string>
+	<string name="section11">第11节</string>
+	<string name="section12">第12节</string>
+	
+	
+	
+</resources>
